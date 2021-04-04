@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(243, 243, 243);
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  font-family: "PT Sans Caption", sans-serif;
+}
+
+.container {
+  background-color: #f4f5db;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-shadow: 5px 10px 10px rgba(83, 83, 80, 0.466);
+  padding: 20px 20px 0 0;
+}
+.resume__top {
+  display: flex;
+  height: 400px;
+  width: 1100px;
+  background: linear-gradient(-45deg, transparent 35px, #a54d4d 0);
+}
+
+.resume__foto-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 450px;
+  background: linear-gradient(-45deg, transparent 45px, #f4f5db 0);
+}
+
+.resume__foto {
+  width: 80%;
+  box-shadow: 5px 9px 20px rgba(83, 83, 80, 0.466);
+}
+
+.resume__name-wrap {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.resume__name {
+  color: #f4f5db;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 68px;
+  font-weight: 700;
+}
+.resume__profession {
+  color: #f4f5db;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.resume__wrapper {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  grid-gap: 30px;
+}
+
+.resume__wrap-left {
+  background-color: #eaceb4;
+  padding: 30px 50px;
+}
+.sidebar__inner {
+  margin-bottom: 60px;
+}
+.sidebar__title {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.contact__box {
+  display: flex;
+  height: 40px;
+  align-items: center;
+}
+.contact__icon {
+  width: 30px;
+  height: 30px;
+  margin: 3px;
+}
+.contact__desc {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.contact__desc:hover {
+  color: #897853;
+}
+.skils-tech__list {
+  list-style-type: none;
+}
+.skils__item {
+  margin-top: 15px;
+}
+.skils__name {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.skils__progress {
+  display: flex;
+  justify-content: space-between;
+}
+.progress-icon {
+  width: 20px;
+}
+
+.skils-soft__list {
+  margin-left: 30px;
+}
+
+.personal {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-gap: 20px;
+}
+
+.resume__title {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 35px 0;
+}
+
+.education__subtitle {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.education__termin {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+.about__list {
+  margin-left: 30px;
+}
+.about__item {
+  color: #1f1f1f;
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
